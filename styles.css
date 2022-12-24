@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.yt-videos-list {
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+.yt-video-container {
+    background: rgb(255, 255, 255);
+    color: black;
+    margin: 0.5em;
+    padding: 0.5em;
+    display: inline-block;
+    width: 100%;
+    left: -15px;
+    position: relative;
+    border-radius: 3px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: white;
+}
+
+footer p {
+    color: white;
+}
+
+.yt-video-container p {
+    width: 358px;
+}
+
+.yt-video-container img {
+    width: 100%;
+    height: 250px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.yt-video-container img,
+p {
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+}
+
+#back {
+    position: fixed;
+    /* top: 30px; */
+    left: 100px;
+    background-color: white;
+    top: 0;
+    width: 100%;
+    text-decoration: none;
+    left: 0;
+    color: white;
+}
+
+#channelName {
+    color: blue;
+}
+
+.inputBox {
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+input {
+    background-color: white;
+    border: none;
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 10px;
+}
+
+.inputBox button {
+    border: none;
+    height: 30px;
+    /* width: 0px; */
+    border-radius: 5px;
+    cursor: grab;
+    left: 12px;
+    position: relative;
+    background-color: rgb(44, 106, 222);
+    color: white;
+}
+
+.install {
+    border: none;
+    height: 32px;
+    width: 120px;
+    border-radius: 30px;
+    cursor: grab;
+    left: 17px;
+    position: relative;
+    background-color: rgb(44, 106, 222);
+    color: white;
+    top: 20px;
+    display: block;
+    margin-top: 20px;
+}
+
+.install a {
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (min-width: 900px) {
+    .yt-video-container {
+        width: 20%;
+    }
+}
