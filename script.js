@@ -75,7 +75,7 @@ fetch(`https://simple-youtube-search.p.rapidapi.com/search?query=${channel2}&saf
             let channelName = data[dataLength]['channel']['name']
 
 
-            document.getElementById('videoList').insertAdjacentHTML('afterbegin', `
+            document.getElementById('videoList').insertAdjacentHTML('afterbegin',   `
                     <a href="video.html?video=${videoId}"><div class="yt-video-container" id="videoContainer">
                     <img id="thumbnail" src="${thumbnail}">
                     <b><p id="title">${title}</p></b>
