@@ -44,7 +44,7 @@ fetch(`https://simple-youtube-search.p.rapidapi.com/search?query=${channel}&safe
 
 
             document.getElementById('videoList').insertAdjacentHTML('afterbegin', `
-                        <a href="https://www.youtube.com/embed/${videoId}&noapp=1" target="_self"><div class="yt-video-container" id="videoContainer">
+                        <a href="https://www.youtube.com/embed/${videoId}&noapp=1"><div class="yt-video-container" id="videoContainer">
                         <img id="thumbnail" src="${thumbnail}">
                         <b><p id="title">${title}</p></b>
                         <p id="uploadDate">Uploaded: ${uploadDate}</p>
@@ -76,7 +76,7 @@ fetch(`https://simple-youtube-search.p.rapidapi.com/search?query=${channel2}&saf
 
 
             document.getElementById('videoList').insertAdjacentHTML('afterbegin', `
-                    <a href="https://www.youtube.com/embed/${videoId}?noapp=1" target="_self"><div class="yt-video-container" id="videoContainer">
+                    <a href="https://www.youtube.com/embed/${videoId}?noapp=1"><div class="yt-video-container" id="videoContainer">
                     <img id="thumbnail" src="${thumbnail}">
                     <b><p id="title">${title}</p></b>
                     <p id="uploadDate">Uploaded: ${uploadDate}</p>
